@@ -13,8 +13,6 @@ class downlodad:
             i=re.sub('\n','',ip)
             self.iplist.append(i.strip())
 
-
-
         self.user_agent_list=[
             "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1",
             "Mozilla/5.0 (X11; CrOS i686 2268.111.0) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11",
@@ -72,6 +70,6 @@ class downlodad:
                 else:
                     print(u'代理也不好使！取消代理。')
                     return self.get(url,3)
-
-Xz=downlodad()
-print(Xz.get('http://mzitu.com').headers)
+repuest=downlodad()
+#Xz=downlodad()
+#print(Xz.get('http://mzitu.com').headers)
