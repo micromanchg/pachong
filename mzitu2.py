@@ -1,1 +1,2 @@
-dfd
+from pymongo import MongoClient
+
